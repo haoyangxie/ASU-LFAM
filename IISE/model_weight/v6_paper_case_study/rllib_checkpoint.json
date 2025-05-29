@@ -1,0 +1,1 @@
+{"type": "Algorithm", "checkpoint_version": "1.2", "format": "cloudpickle", "state_file": "../model_weight/v6_paper_case_study/algorithm_state.pkl", "policy_ids": [], "ray_version": "2.24.0", "ray_commit": "cfea8b29800afc76823bd1a171657010f4eb96bb"}

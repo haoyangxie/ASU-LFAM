@@ -1,0 +1,12 @@
+\ Model speed_control_without_acceleration_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ qc0: [ v_inside_partition3977 * v_inside_avg78
+   + v_inside_partition3978 * v_inside_avg78 ] = 2
+Bounds
+ v_inside_partition3977 >= 5
+ v_inside_partition3978 >= 5
+ v_inside_avg78 >= 5
+End
