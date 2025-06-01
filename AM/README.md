@@ -1,7 +1,9 @@
 # Hybrid-CNN-LSTM
 This code is about the paper "Online Thermal Profile Prediction for Large Format Additive Manufacturing: A Hybrid CNN-LSTM based Approach", which is currently under review of the AM jounal. 
 
-Input data: 256*320 csv files. Model is tested to train on Tensorflow using GPU A100 with the IR thermal data for Table and Totem geometry. The model can be trained with following steps:
+paper: **`LSAM_Temperature_Prediction.pdf`**
+
+**Input data**: 256*320 csv files. Model is tested to train on Tensorflow using GPU A100 with the IR thermal data for Table and Totem geometry. The model can be trained with following steps:
 
 1. First, run **`CNN_pretrain.py`** and save the model. This step applies CNN autoencoder for spatial feature extraction in image. Three models including encoder, autoencoder, and decoder will be saved for later use. 
 2. Second, import three saved CNN models and train the **`CNN_LSTM.py`**. After this step, the trained hybrid CNN-LSTM prediction model and inference prediction on test data will be saved.
