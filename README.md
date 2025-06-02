@@ -10,6 +10,12 @@ Contains all code related to the paper "Transformer-Based Offline Printing Strat
 ### IISE
 Contains all code related to the paper "Deep Reinforcement Learning for Dynamic Extruder Speed Control in Large Format Additive Manufacturing".
 
+### AM
+Contains all code related to the paper "Online Thermal Profile Prediction for Large Format Additive Manufacturing: A Hybrid CNN-LSTM based Approach".
+
+### IEEE_CASE_2025
+Contains all code related to the paper "Video Diffusion based Digital Twin for Large Format Additive Manufacturing".
+
 ## Usage
 
 Please refer to the README files in each subdirectory for detailed usage instructions.
